@@ -23,8 +23,8 @@ include_once("templates/header.php");
         </div>
 
         <div class="form-grounp mt-3">
-            <label for="observetion">Observações:</label>
-            <textarea type="text" class="form-control" id="observetion" name="observetion" placeholder="Insira as Observação" rows="3" ></textarea>
+            <label for="observation">Observações:</label>
+            <textarea type="text" class="form-control" id="observation" name="observation" placeholder="Insira as Observação" rows="3" ></textarea>
         </div>
 
         <button type="submit" class="btn btn-primary mt-3">Cadastrar</button>

@@ -26,9 +26,9 @@ CREATE TABLE `contacts` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `name` varchar(150) DEFAULT NULL,
   `fone` varchar(20) DEFAULT NULL,
-  `observetion` text DEFAULT NULL,
+  `observation` text DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -38,9 +38,8 @@ CREATE TABLE `contacts` (
 LOCK TABLES `contacts` WRITE;
 /*!40000 ALTER TABLE `contacts` DISABLE KEYS */;
 INSERT INTO `contacts` VALUES
-(1,'Leonardo','(81)99999-9999','Programador'),
-(2,'João','(81)88888-8888','Advogado'),
-(4,'Maria','(81)99999-4444','');
+(15,'Leonardo','81 9 9999-9999','Programador pleno.'),
+(16,'leonardo','81 9 9999-9999','programador');
 /*!40000 ALTER TABLE `contacts` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -53,4 +52,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-03-02 21:12:52
+-- Dump completed on 2023-03-02 21:52:22

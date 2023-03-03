@@ -12,7 +12,7 @@ include_once("templates/header.php");
     <p><?= $contact["fone"] ?></p>
 
     <p class="bold">Observação:</p>
-    <p><?= $contact["observetion"] ?></p>
+    <p><?= $contact["observation"] ?></p>
 </div>
 
 <?php

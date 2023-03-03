@@ -18,15 +18,15 @@ if(!empty($data)){
 
         $name = $data["name"];
         $fone = $data["fone"];
-        $observetion = $data["observetion"];
+        $observation = $data["observation"];
 
-        $query = "INSERT INTO contacts (name, fone, observetion) VALUES (:name, :fone, :observetion)";
+        $query = "INSERT INTO contacts (name, fone, observation) VALUES (:name, :fone, :observation)";
 
         $stmt = $conn->prepare($query);
 
         $stmt->bindParam(":name", $name);
         $stmt->bindParam(":fone", $fone);
-        $stmt->bindParam(":observetion", $observetion);
+        $stmt->bindParam(":observation", $observation);
 
         try {
             $stmt->execute();
