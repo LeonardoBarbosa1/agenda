@@ -1,0 +1,48 @@
+
+.col-id {
+    font-weight: bold; /*negrito */
+}
+.actions {
+    text-align: right;
+    width: 150px;
+  }
+.actions i {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.check-icon {
+    color: #1E7E34;
+}
+
+.edit-icon {
+    color: #007BFF;
+}
+
+.delete-form{
+    display: inline-block; /*Não quebra linha*/
+}
+
+.delete-icon {
+    color: #BD2130;
+}
+.delete-btn {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+#contacts-table{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#contacts-table thead{
+    color: #fff;
+    background-color: rgb(25, 27, 37);
+
+}
+
+#empty-list-text{
+    text-align: center;
+}

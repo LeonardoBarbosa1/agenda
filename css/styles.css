@@ -1,0 +1,49 @@
+.navbar-brand img{
+    width: 50px;
+}
+
+#main-title{
+    text-align: center;
+    margin: 15px 0 30px;
+}
+
+
+#back-link-container {
+    display: block;
+    width: 500px;
+    margin: 30px auto 0; /*30px topo, auto laterais, 0 para baixo*/
+}
+
+#back-link {
+        border: 1px solid #007BFF;
+        color: #007BFF;
+        border-radius: 4px;
+        padding: 5px;
+        text-decoration: none;
+}
+
+#msg{
+    color: #155724;
+    background-color: #D4EDDA;
+    border: 1px solid #C3E6CB;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+@media(max-width: 480px){
+    #home-link{
+        display: none;
+    }
+    #add{
+        margin-right: 10px;
+    }
+}
+
+
+
+
+
+
+
