@@ -1,5 +1,8 @@
 <?php
 include_once("templates/header.php");
+function titulo() {  
+    echo 'Home';   
+}
 ?>
 
 <div class="container">

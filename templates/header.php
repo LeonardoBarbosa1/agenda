@@ -7,7 +7,8 @@
         $printMsg = $_SESSION['msg'];
         $_SESSION['msg'] = '';
     }
-
+    
+    
 ?>
 
 
@@ -27,7 +28,7 @@
     <link rel="stylesheet" href="<?= $BASE_URL ?>css/home/styles.css">
     <link rel="stylesheet" href="<?= $BASE_URL ?>css/create/styles.css">
    
-    <title>Agenda de Contatos</title>
+    <title>Agenda de Contatos  <?= " - ", titulo()?></title>
 </head>
 <body>
 

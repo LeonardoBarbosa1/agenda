@@ -15,6 +15,7 @@ if(!empty($data)){
 
     //CRIAR CONTATO
     if($data["type"] === "create" ){
+        
 
         $name = $data["name"];
         $fone = $data["fone"];
@@ -38,6 +39,7 @@ if(!empty($data)){
             echo "Error: " . $error;
         }
     } else if($data["type"] === "edit"){
+        
 
         $name = $data["name"];
         $fone = $data["fone"];
@@ -84,9 +86,10 @@ if(!empty($data)){
             $error = $e->getMessage();
             echo "Error: " . $error;
         }
-
+        
 
     }
+    
 
     //REDIRECT HOME
     header("Location:" . $BASE_URL . "../index.php");

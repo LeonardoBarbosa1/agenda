@@ -1,5 +1,8 @@
 <?php
 include_once("templates/header.php");
+function titulo() {  
+    echo 'Visualizar';   
+}
 ?>
 
 <div class="container" id="view-contact-conteiner">
